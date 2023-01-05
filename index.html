@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>เจ้าหญิงนักกฎหมาย</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link rel="stylesheet" href="Framework/bootstrap-5.2.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="Framework/matthieua-WOW-07a2b50/css/libs/animate.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="Framework/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="Framework/matthieua-WOW-07a2b50/dist/wow.min.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</head>
+<body>
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-none d-lg-block fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">หน้าหลัก</a>
+      <a class="navbar-brand" href="A/AD.html">ติดต่อเรา</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle navbar-brand" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              เมนู
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="A/A1.html">พระราชประวัติเจ้าฟ้าพัชรกิติยาภาฯ</a></li>
+              <li><a class="dropdown-item" href="A/A2.html">การศึกษา</a></li>
+              <li><a class="dropdown-item" href="A/A3.html">พระราชกรณียกิจ</a></li>
+              <li><a class="dropdown-item" href="A/A4.html">พระอิสริยยศ</a></li>
+              <li><a class="dropdown-item" href="A/A5.html">พระยศทางทหาร
+            </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav -->
+  <nav class="navbar navbar-dark bg-dark fixed-top d-block d-lg-none">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">หน้าหลัก</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">เมนู</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="A/A1.html">พระราชประวัติเจ้าฟ้าพัชรกิติยาภาฯ</a>
+              <a class="nav-link" href="A/A2.html">การศึกษา</a>
+              <a class="nav-link" href="A/A3.html">พระราชกรณียกิจ</a>
+              <a class="nav-link" href="A/A4.html">พระอิสริยยศ</a>
+              <a class="nav-link" href="A/A5.html">พระยศทางทหาร</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="A/AD.html">ติดต่อเรา</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Box -->
+  <div id="Box">
+    <!-- Banner -->
+    <div id="Banner">
+        <img src="ภาพประกอบ/02113.jpg" class="banner wow fadeInDown">
+    </div>
+    <!-- Menu & Video -->
+    <div class="row row-cols-1 row-cols-lg-2 mb-3">
+        <!-- MEnu -->
+        <div class="row">
+            <div class="col"></div>
+        </div>
+        <!-- Video -->
+        <div class="col">
+            <video src="วิดิโอ/พระราชประวัติ สมเด็จพระเจ้าลูกเธอ เจ้าฟ้าพัชรกิติยาภา........mp4" controls class="video wow fadeInRight"></video>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
