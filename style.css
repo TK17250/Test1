@@ -1,16 +1,16 @@
 @font-face {
-    font-family: "Charm-Regular.woff2";
-    src: url(Framework/bootstrap-5.2.3-dist/font/Font-Thai/Charm/WOFF2/Charm-Regular.woff2);
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    src: url(Framework/bootstrap-5.2.3-dist/font/Font-Bassic/IBMPlexSansThai/WOFF2/IBMPlexSansThai-Medium.woff2);
 }
 
 body , html{
     padding: 0;
     margin: 0;
-    font-family: "Charm-Regular.woff2";
+    font-family: "IBMPlexSansThai-Medium.woff2";
     background-color: gray;
 }
 
-/* Box */
+/*                   Box                     */
 
 #Box {
     margin: auto;
@@ -21,7 +21,7 @@ body , html{
     border-radius: 20px;
 }
 
-/* Banner */
+/*                   Banner                     */
 
 #Banner {
     max-width: 100%;
@@ -32,11 +32,80 @@ body , html{
     width: 100%;
 }
 
-/* video */
+/*                  Menu                     */
+
+.a-img {
+    width: 80%;
+}
+
+.A-menu {
+    text-decoration: none;
+    color: black;
+}
+
+.img-menu {
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+
+/*                  video                   */
+
+.top-menu {
+    font-weight: bold;
+    border-bottom: 3px solid orange;
+    width: 90%;
+    margin: auto;
+    display: block;
+    background: -webkit-linear-gradient(#f8a154, #ff7a01);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
 
 .video {
     width: 80%;
     display: block;
     margin: auto;
     box-shadow: 1px 1px 10px;
+}
+
+/*                  BF                   */
+
+#BF {
+    background-color: rgb(91, 91, 91);
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+.a-li {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.top-text {
+    background: -webkit-linear-gradient(#f8a154, #ff7a01);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: bold;
+}
+
+.BT {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/*                  Footer                   */
+
+footer {
+    background-color: black;
+    padding: 15px;
+}
+
+.text-footer {
+    color: white;
+    text-align: center;
 }
