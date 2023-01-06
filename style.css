@@ -50,6 +50,12 @@ body , html{
 
 /*                  video                   */
 
+.top-img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
 .top-menu {
     font-weight: bold;
     border-bottom: 3px solid orange;
@@ -109,11 +115,12 @@ li {
 /*                  Footer                   */
 
 footer {
-    background-color: black;
+    background-color: #f8a154;
     padding: 15px;
 }
 
 .text-footer {
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 8px black;
 }
