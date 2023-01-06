@@ -68,6 +68,14 @@ body , html{
     box-shadow: 1px 1px 10px;
 }
 
+/*                  img-body                     */
+
+.img-body {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+
 /*                  BF                   */
 
 #BF {
