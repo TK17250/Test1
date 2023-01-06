@@ -1,27 +1,28 @@
 @font-face {
-    font-family: "Charm-Regular.woff2";
-    src: url(Framework/bootstrap-5.2.3-dist/font/Font-Thai/Charm/WOFF2/Charm-Regular.woff2);
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    src: url("bootstrap-5.2.3-dist/font/IBMPlexSansThai/WOFF2/IBMPlexSansThai-Medium.woff2");
 }
 
-body , html{
+body,html {
     padding: 0;
     margin: 0;
-    font-family: "Charm-Regular.woff2";
+    font-family: "IBMPlexSansThai-Medium.woff2";
     background-color: gray;
+    animation: body 1s;
 }
 
-/* Box */
+/*         Box           */
 
 #Box {
-    margin: auto;
+    width: 80%;
     display: block;
-    width: 90%;
-    background-color: white;
+    margin: auto;
     box-shadow: 0px 0px 50px white;
     border-radius: 20px;
+    background-color: white;
 }
 
-/* Banner */
+/*       BAnner           */
 
 #Banner {
     max-width: 100%;
@@ -32,47 +33,81 @@ body , html{
     width: 100%;
 }
 
-/* video */
-
-.top-menu {
-    font-weight: bold;
-    border-bottom: 3px solid orange;
-    width: 90%;
+.MQ {
+    padding: 5px;
+    border: 1px solid black;
     margin: auto;
     display: block;
-    background: -webkit-linear-gradient(rgb(244, 230, 79), rgb(248, 117, 36));
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    width: 80%;
+    border-radius: 20px;
+    color: white;
+    background-color: #805da6;
+    text-shadow: 2px 2px 8px black;
+}
+
+/*            Menu               */
+
+.text-menu {
+    text-decoration: none;
+    color: black;
+}
+
+.img-menu {
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+    transition: transform 0.5s, box-shadow 0.5s;
 }
 
 .video {
     width: 80%;
     display: block;
     margin: auto;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 2px 2px 8px black;
+    transition: box-shadow 0.5s;
 }
 
-/*                  BF                   */
+.Video- {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-bottom: 3px solid #bd89f4;
+    font-weight: bold;
+}
+
+/*               Body                  */
+
+.img-body {
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.top-b {
+    color:  black;
+    text-shadow: 2px 2px 8px rgb(255, 58, 255);
+}
+
+/*           BF            */
 
 #BF {
-    background-color: rgb(91, 91, 91);
+    background-color: rgb(65, 64, 64);
+    padding: 10px;
     position: relative;
+}
+
+.top-m {
+    color: white;
+    text-shadow: 2px 2px 8px rgb(255, 58, 255);
+}
+
+.li-a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px black;
 }
 
 li {
     list-style: none;
-}
-
-.a-li {
-    text-decoration: none;
-    color: white;
-    text-shadow: 2px 2px 8px black;
-}
-
-.top-text {
-    background: -webkit-linear-gradient(rgb(244, 230, 79), rgb(248, 117, 36));
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
 }
 
 .BT {
@@ -81,14 +116,54 @@ li {
     right: 10px;
 }
 
-/*                  Footer                   */
+/*         Footer          */ 
 
 footer {
     background-color: black;
-    padding: 15px;
+    padding: 20px;
 }
 
 .text-footer {
     color: white;
     text-align: center;
+}
+
+/*           AD           */  
+
+.img-AD {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 2px 8px black;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.m {
+    text-decoration: none;
+    color: black;
+}
+
+/*           Hover           */
+
+.img-AD:hover,.img-body:hover,.img-menu:hover {
+    transform: scale(1.03,1.03);
+    box-shadow: 0px 0px 20px rgb(94, 15, 168);
+}
+
+.video:hover {
+    box-shadow: 0px 0px 20px rgb(94, 15, 168);
+}
+
+/*             Keyframe            */
+
+@keyframes body {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
