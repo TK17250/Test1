@@ -80,6 +80,8 @@ body , html{
     width: 80%;
     border-radius: 10px;
     box-shadow: 2px 2px 8px black;
+    display: block;
+    margin: auto;
 }
 
 /*                  BF                   */
@@ -123,4 +125,12 @@ footer {
     color: white;
     text-align: center;
     text-shadow: 2px 2px 8px black;
+}
+
+/*                  Body Menu                */
+
+#Body {
+    width: 80%;
+    display: block;
+    margin: auto;
 }
