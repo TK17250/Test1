@@ -10,6 +10,28 @@ body , html{
     background-color: gray;
 }
 
+/*                  scrollbar                    */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f8a154;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff7a01;
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+}
+
 /*                   Box                     */
 
 #Box {
