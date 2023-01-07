@@ -8,9 +8,11 @@ body , html{
     margin: 0;
     font-family: "IBMPlexSansThai-Medium.woff2";
     background-color: gray;
+    animation: body 1s;
 }
 
 /*                  scrollbar                    */
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -191,4 +193,11 @@ img {
 
 a:hover,.navbar-brand:hover {
     color: #ff7a01;
+}
+
+/*                  Keyframes                    */
+
+@keyframes body {
+    0% {opacity: 0.1;}
+    100% {opacity: 1;}
 }
