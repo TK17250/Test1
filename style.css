@@ -83,6 +83,17 @@ body , html{
     box-shadow: 2px 2px 8px black;
 }
 
+.bo {
+    border: 1px solid rgb(187, 185, 182);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgb(146, 146, 146);
+}
+
+.flower {
+    color: #ff7a01;
+}
+
 /*                  video                   */
 
 .top-img {
