@@ -131,6 +131,14 @@ body , html{
     margin: auto;
 }
 
+.img-body1 {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    display: block;
+    margin: auto;
+}
+
 /*                  BF                   */
 
 #BF {
